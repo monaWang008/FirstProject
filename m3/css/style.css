@@ -1,0 +1,15 @@
+
+body {
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+}
+h1 {
+  font-family: "Redressed", cursive;
+}
+figure {
+  padding: 1px 2px 3px 4px;
+  padding-top: 3px;
+  margin: 3px 4em 4px 2em;
+  border: 1px solid #f00;
+  border-left-width: 4px;
+  border-top-style: dotted;
+}

@@ -1,0 +1,26 @@
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:  wrap;
+  justify-content:  center;
+  padding-left: 0;
+  list-style: none;
+  align-items: stretch;
+  height: 100px;
+  gap: 17px;
+}
+li{
+  width: 15%;
+  border: 1px solid;
+  height: 22px;
+}
+.orderOdd,
+.orderEven {
+	order: 1;
+}
+
+@media(max-width: 700px){
+.orderOdd {
+	order: 2;
+}
+}

@@ -1,0 +1,39 @@
+p {
+	color: blueviolet;
+	font-size: 20px;
+	font-family: Georgia,"Times New Roman",serif;
+	letter-spacing:  2px;
+	word-spacing:  5px;
+	text-indent: 30px;
+	text-transform: capitalize;
+} 
+p a {
+	font-size:  1.5em;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #999;
+}
+li {
+	color: #00f;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1.5em;
+}
+a {
+	color: rgb(252,129.101);
+}
+li:nth-child(odd) {
+	color: inherit;
+}
+li:last-child {
+	color: #f00;
+}
+
+.para-two {
+	color: rgba(252,129,101,0.5);
+}
+
+#link3 p {
+	font-weight: 400;
+}
+.bold {
+	font-weight: 700;
+}
