@@ -1,0 +1,111 @@
+:root {
+	--color-offwhite: #e2d6d6;
+	--font-serif: Georgia,"Times New Roman", serif;
+	--font-sans: Helvetica,Arial,sans-serif ;
+	--color-theme: #e2b4b4;
+	--color-theme-dark: #eb7a7a;
+	--color-theme-medium: #f4d171;
+	--color-theme-light: #dfeff7;
+}
+
+body {
+	background-color: var(--color-offwhite);
+}
+
+
+
+a:hoover {
+    text-decoration: underline;
+}
+
+h1 {
+	color: var(--color-theme-dark);
+}
+.product-category h2 {
+	color: var(--color-theme-dark);
+}
+.product-category .view-window {
+	height: 60vh;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* Product Card */
+.product-card-container {
+	display: flex;
+	overflow: scroll;
+	margin-bottom: 40px;
+	flex-wrap: wrap;
+}
+.product-card {
+	width: 18%;
+	margin-right: 7%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.product-card-image {
+	position: relative;
+	margin-bottom: 5px;
+}
+.product-card-image h4 {
+	width: 100%;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: var(--font-sans);
+    font-weight: 800;
+    -webkit-text-stroke: 0.7px var(--color-offwhite);
+}
+.product-card-image img {
+	height: 20vh;
+}
+.product-card-description h5{
+	margin: 0 auto;
+}
+.product-card-description p{
+	height: 50px;
+	text-align: left;
+	font-weight: 300;
+	font-size: 13px;
+	inline-size: 100%;
+	overflow-wrap: break-word;
+    hyphens: auto;
+}
+.product-card-description form {
+  margin: 0 auto 20px;
+  text-align: center;
+  display: flex;
+}
+.product-card-description form input {
+	width: 70%;
+	margin: 0 5px;
+}
+.product-card-description form .value-button {
+  display: inline-block;
+  border: 1px solid var(--color-theme);
+  width: 10%;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  background: var(--color-theme);
+  color: white;
+}
+.product-card-description form .value-button:hover {
+	border: 1px solid var(--color-theme-medium);
+	background: var(--color-theme-medium);
+}
+.product-card-description button{
+	width: 100%;
+	border: none;
+	border-radius: 5%;
+	padding:10px 0;
+	background-color: var(--color-theme);
+	color: white;
+	font-weight: 300;
+}
+.product-card-description button:hover{
+	background-color: var(--color-theme-medium);
+}
